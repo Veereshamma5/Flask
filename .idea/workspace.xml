@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f8fe4756-596a-468d-b29b-cb121e2870b9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/abc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/Learning_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/authentication.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api_docs/learning_apis/create_learning.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/email_templates/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/email_templates/new_learning_email.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/lib/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/lib/constants.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/lib/custom_exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/lib/jwt_token.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/logging_config/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/logging_config/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/mailers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/mailers/learning_mailer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/Learning.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/customers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/repository/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/repository/learning_repo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/service/Learning.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/service/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/tasks/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/tasks/base_celery.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/tasks/learning_tasks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/new_learning_email.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/celery_worker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/versions/8cdc50bf0c4d_.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/versions/a6ff98087d3d_creating_learning_table.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/schema/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/schema/base_schema.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/schema/learning_schema.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/swagger.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/tests_learning_apis/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/tests_learning_apis/test_learning_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/veeru.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/veeru.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/api/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/api/study_api.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/study.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/repo/sqlcontext.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/repository/sqlcontext.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/alembic.ini" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/alembic.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/env.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/env.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/versions/c34112c3890f_added_email_field.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/versions/ca3c687728bb_.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../veeru/Lib/site-packages/kombu/transport/redis.py" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2aU6vU5wd79aM7gus4VB8J5h8ao" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "swaggerDoc",
+    "last_opened_file_path": "C:/Users/veereshamma.kake",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="pytest for test_learning_api.test_allowed_rest_call" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="veeru" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/tests_learning_apis" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_learning_api.test_allowed_rest_call&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.pytest for test_learning_api.test_allowed_rest_call" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f8fe4756-596a-468d-b29b-cb121e2870b9" name="Changes" comment="" />
+      <created>1704361041116</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704361041116</updated>
+    </task>
+    <servers />
+  </component>
+</project>
