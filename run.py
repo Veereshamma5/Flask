@@ -10,7 +10,6 @@ import json
 
 cdp_app = create_app(DevConfig)
 req_logger = logging.getLogger('RequestLogger')
-api = Api(cdp_app)
 
 
 @cdp_app.before_request
