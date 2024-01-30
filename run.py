@@ -1,5 +1,6 @@
 import logging
 
+from flasgger import swag_from
 from flask import request, jsonify
 from flask_restful import Api
 from flask_swagger import swagger
@@ -29,30 +30,10 @@ def cdp_app_before_request():
     req_logger.info(json.dumps(log_params))
 
 
-"""@cdp_app.route("/swag", methods=['GET'])
-def spec():
-    swag = swagger(cdp_app)
-    swag['info']['version'] = '1.0'
-    swag['info']['title'] = 'Your API'
-    return jsonify(swag)"""
-
-
-@cdp_app.route("/square/<int:num>", methods=['GET'])
-def square(num):
-    """
-        This endpoint returns the square of the provided number.
-        ---
-        parameters:
-          - name: num
-            in: path
-            type: integer
-            required: true
-            description: The number to square.
-        responses:
-          200:
-            description: The square of the number.
-        """
-    return jsonify({'result': num * num}), 200
+@cdp_app.route('/hello/<string:name>', methods=['GET'])
+@swag_from('/api/api_docs/learning_apis/create_learning.yml')
+def hello(name):
+    return jsonify({'message': f'Hello, {name}!'}), 200
 
 
 if __name__ == "__main__":

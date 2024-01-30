@@ -5,57 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8fe4756-596a-468d-b29b-cb121e2870b9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/abc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/api/Learning_api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/api/authentication.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/api_docs/learning_apis/create_learning.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/email_templates/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/email_templates/new_learning_email.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/lib/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/lib/constants.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/lib/custom_exceptions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/lib/jwt_token.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/logging_config/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/logging_config/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/mailers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/mailers/learning_mailer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/Learning.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/customers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/repository/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/repository/learning_repo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/service/Learning.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/service/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/tasks/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/tasks/base_celery.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/tasks/learning_tasks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/template/new_learning_email.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/celery_worker.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/versions/8cdc50bf0c4d_.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/versions/a6ff98087d3d_creating_learning_table.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schema/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schema/base_schema.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schema/learning_schema.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/swagger.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/tests_learning_apis/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/tests_learning_apis/test_learning_api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/veeru.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/veeru.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learning_therory/cors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/abc.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/study_api.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/study.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/repo/sqlcontext.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/repository/sqlcontext.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/alembic.ini" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/alembic.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/env.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/env.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/versions/c34112c3890f_added_email_field.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/versions/ca3c687728bb_.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/api/Learning_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/Learning_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/api_docs/learning_apis/create_learning.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/api_docs/learning_apis/create_learning.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/Learning.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/Learning.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/service/Learning.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/service/Learning.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cors.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schema/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/schema/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schema/base_schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/schema/base_schema.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schema/learning_schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/schema/learning_schema.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/tests_learning_apis/test_learning_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/tests_learning_apis/test_learning_api.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +40,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/../veeru/Lib/site-packages/kombu/transport/redis.py" root0="SKIP_INSPECTION" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -84,17 +51,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "swaggerDoc",
-    "last_opened_file_path": "C:/Users/veereshamma.kake",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;swaggerDoc&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/veereshamma.kake&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CDP_App_Learning\app" />
+      <recent name="D:\CDP_App_Learning\learning_therory" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.pytest for test_learning_api.test_internal_server_exception">
     <configuration name="pytest for test_learning_api.test_allowed_rest_call" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="veeru" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -111,8 +84,76 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for test_learning_api.test_create_learning" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="veeru" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/tests_learning_apis" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_learning_api.test_create_learning&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_learning_api.test_exceptions" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="veeru" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/tests_learning_apis" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_learning_api.test_exceptions&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_learning_api.test_internal_server_exception" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="veeru" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/tests_learning_apis" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_learning_api.test_internal_server_exception&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_learning_api.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="veeru" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/tests_learning_apis" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/tests_learning_apis/test_learning_api.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_learning_api.test_internal_server_exception" />
+        <item itemvalue="Python tests.pytest for test_learning_api.test_exceptions" />
+        <item itemvalue="Python tests.pytest for test_learning_api.test_create_learning" />
+        <item itemvalue="Python tests.pytest in test_learning_api.py" />
         <item itemvalue="Python tests.pytest for test_learning_api.test_allowed_rest_call" />
       </list>
     </recent_temporary>

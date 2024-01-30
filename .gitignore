@@ -21,7 +21,7 @@ dist/
 
 # Maven
 target/
-dist/
+
 
 # JetBrains IDE
 .idea/
@@ -39,6 +39,10 @@ Thumbs.db
 *.app
 *.exe
 *.war
+*.env
+
+
+
 
 # Large media files
 *.mp4
@@ -55,3 +59,15 @@ test.py
 **/terraform.tfvars.*
 .venv
 venv
+*/.pytest_cache/
+*.html
+
+/app/api_docs/
+/PytestSessions/
+/learning_therory/
+/static/
+/tests/
+/static/
+/.pytest_cache/
+/migrations/
+/learning_therory/
