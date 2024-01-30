@@ -19,4 +19,3 @@ class SqlContext(object):
                 self.session.rollback()
                 raise ex
 
-    

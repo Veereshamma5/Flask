@@ -1,0 +1,11 @@
+parameters:
+  - name: num
+    in: path
+    type: integer
+    required: true
+    description: The number to square.
+responses:
+  '200':
+    description: The square of the number.
+    content:
+      application/json

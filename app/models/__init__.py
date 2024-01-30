@@ -1,4 +1,5 @@
 from app.models.base_model import DB, MIGRATE
-from app.models.study import Allocation
+from app.models.Learning import Learning
+from app.models.customers import Customers
 
-__all__ = ["Allocation", "DB", "MIGRATE"]
+__all__ = ["Learning", "DB", "MIGRATE", "Customers"]
